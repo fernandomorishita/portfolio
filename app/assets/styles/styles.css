@@ -7,3 +7,5 @@
 @import '/modules/_wrapper';
 @import '/modules/_block';
 @import '/modules/_block-title';
+@import '/modules/_row';
+@import '/modules/_skill-col';
