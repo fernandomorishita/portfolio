@@ -3,9 +3,7 @@
 @import 'base/_mixins';
 @import 'base/_global';
 @import '/modules/_hello-block';
-@import '/modules/_about-block';
 @import '/modules/_wrapper';
 @import '/modules/_block';
 @import '/modules/_block-title';
 @import '/modules/_row';
-@import '/modules/_skill-col';
