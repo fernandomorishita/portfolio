@@ -2,4 +2,12 @@
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+
+  &--height-md {
+    height: 500px;
+  }
+
+  &--sm {
+    max-width: 700px;
+  }
 }
