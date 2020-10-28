@@ -2,6 +2,7 @@
   text-align: center;
   /*height: 500px;*/
   position: relative;
+  padding-top: 100px;
   top: 50%;
   transform: translateY(-70%);
 
@@ -16,5 +17,9 @@
     color: $darkBlue;
     font-size: 2rem;
     font-weight: 500;
+  }
+
+  &__image {
+    width: 100px;
   }
 }
