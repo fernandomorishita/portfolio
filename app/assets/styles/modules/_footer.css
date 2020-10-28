@@ -11,5 +11,16 @@
   }
 
   &__social {
+    font-size: 3rem;
+  }
+
+  &--light-blue {
+    background-color: $lightBlue;
+    color: white;
+  }
+
+  &--white {
+    background-color: white;
+    color: $darkBlue;
   }
 }

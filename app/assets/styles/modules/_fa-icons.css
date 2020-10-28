@@ -1,8 +1,14 @@
 .fab,
 .fas {
   position: relative;
-  color: $lightBlue;
-  font-size: 3rem;
   padding-left: 16px;
   left: -8px;
+
+  &--light-blue {
+    color: $lightBlue;
+  }
+
+  &--white {
+    color: white;
+  }
 }
