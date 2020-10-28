@@ -1,0 +1,28 @@
+.block {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 150px;
+
+  &__content {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+  }
+
+  &__subtitle {
+    font-weight: 800;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+  }
+
+  &--light-blue {
+    background-color: $lightBlue;
+    color: white;
+  }
+
+  &--white {
+    background-color: white;
+    color: $lightBlue;
+  }
+}

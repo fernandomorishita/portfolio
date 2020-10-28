@@ -1,0 +1,18 @@
+.hello-block {
+  text-align: center;
+  height: 400px;
+  padding-top: 50px;
+
+  &__title {
+    color: $lightBlue;
+    font-family: 'Anton', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 4px;
+  }
+
+  &__subtitle {
+    color: $darkBlue;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+}

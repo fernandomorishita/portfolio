@@ -1,0 +1,21 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0; /* Eliminates the space created by inline-block in child divs */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+strong {
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box; /* keeps the declared width value of 100% */
+}

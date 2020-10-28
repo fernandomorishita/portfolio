@@ -1,0 +1,12 @@
+.row {
+  text-align: center;
+  &__md-4 {
+    float: left;
+    width: 33.33%;
+  }
+
+  &__md-6 {
+    float: left;
+    width: 50%;
+  }
+}

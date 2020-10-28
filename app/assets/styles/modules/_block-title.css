@@ -1,0 +1,30 @@
+.block-title {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 8px solid;
+  top: -75px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+
+  &__title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &--white {
+    background-color: white;
+    color: $lightBlue;
+    border-color: $lightBlue;
+  }
+
+  &--blue {
+    background-color: $lightBlue;
+    color: white;
+    border-color: white;
+  }
+}
