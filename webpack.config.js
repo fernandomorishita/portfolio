@@ -25,7 +25,7 @@ const postCSSPlugins = [
 class RunAfterCompile {
   apply(compiler) {
     compiler.hooks.done.tap('Copy images', function() {
-      fse.copySync('./app/assets/images', './dist/assets/images')
+      fse.copySync('./app/assets/images', './docs/assets/images')
     })
   }
 }
@@ -82,6 +82,7 @@ if (currentTask == 'dev') {
 }
 
 if (currentTask == 'build') {
+  // use babel to make javascript backwards compatible
   config.module.rules.push({
     test: /\.js$/,
     exclude: /(node_modules)/,
@@ -97,7 +98,7 @@ if (currentTask == 'build') {
   config.output = {
     filename: '[name].[chunkhash].js', // bundled file
     chunkFilename: '[name].[chunkhash].js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'docs'),
   }
   config.mode = 'production'
   config.optimization = {
