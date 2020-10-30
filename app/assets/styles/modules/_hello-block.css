@@ -9,17 +9,21 @@
   &__title {
     color: $lightBlue;
     font-family: 'Anton', sans-serif;
-    font-size: 4rem;
+    font-size: 2.5rem;
     letter-spacing: 4px;
+
+    @mixin atMedium {
+      font-size: 4rem;
+    }
   }
 
   &__subtitle {
     color: $darkBlue;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
-  }
 
-  &__image {
-    width: 100px;
+    @mixin atMedium {
+      font-size: 2rem;
+    }
   }
 }

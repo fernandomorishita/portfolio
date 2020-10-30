@@ -1,8 +1,10 @@
 .fab,
 .fas {
-  position: relative;
-  padding-left: 16px;
-  left: -8px;
+  &--p-left {
+    position: relative;
+    padding-left: 16px;
+    left: -8px;
+  }
 
   &--light-blue {
     color: $lightBlue;
